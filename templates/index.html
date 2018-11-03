@@ -8,21 +8,40 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Hacker Typer</title>
+    <title>WikiDetective</title>
     <link href="/static/style.css" rel="stylesheet" type="text/css"/>
-    <script
-            src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
+    <embed src="/media/Royalty Free Music  No Copyright Sounds - Nightmare While Awake  Creepy Instrumental.mp3">
+
 </head>
 <body>
-    <div id='console'></div>
+       
+
+        <h1 class="h1">Wiki Detective...</h1>
+        <p>Introduction <br></p>
+<div class="wrap">
+        
+        <p id="opening"></p>
+
+        <br>
+        <br>
+
+
+        <input placeholder='Enter Response' type="hidden" id='keyword' name="topicName">
+
+        <button  id="button1" hidden="hidden" onclick="checkAnswer(document.getElementById('keyword').value)">Check answer</button>
+        <br>
+        <br>
+        <p id="demo"></p>
+    </div>
+
+
 </body>
 
-<script src='/static/js/script.js' type='text/javascript'></script>
+<!-- <script src='/static/js/script.js' type='text/javascript'></script>
 <script type='text/javascript'>
     Typer.speed = 3;
     Typer.file = '/static/kernel.txt';
     Typer.init();
-</script>
+</script> -->
+<script src='/static/js/script.js'></script>
 </html>

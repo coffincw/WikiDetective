@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request
-#from util import testing2, math, number
+from util import parser
+from queue import Queue
 app = Flask(__name__)
-foo = "test"
-
+foo ="hi"
 @app.route('/')
 def index():
     return render_template('index.html',foo=foo)

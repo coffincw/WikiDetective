@@ -4,29 +4,93 @@ body{
 	font-family:'Courier New', Courier, monospace;
 	font-size: 18px;
 	font-weight: bold;
+	background:#111;
 }
 
-.accessGranted{
-	position:fixed;
-	top:200px;
-	background:#333;
-	padding:20px;
-	border:1px solid #999;
-	width:300px;
-	left:50%;
-	margin-left:-150px;
-	text-align:center;
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500);
+
+*{
+    padding:0;
+    margin:0;
 }
 
-.accessDenied{
-	position:fixed;
-	top:200px;
-	color:#F00;
-	background:#511;
-	padding:20px;
-	border:1px solid #F00;
-	width:300px;
-	left:50%;
-	margin-left:-150px;
-	text-align:center;
+
+a{
+    text-decoration: none;
+    color:#000;
 }
+    a:hover{
+        color:#222;
+    }
+/* p{
+    line-height: 2em;
+    margin:0 0 20px;
+    text-align: left;
+} */
+
+.wrap{
+    max-width: 600px;
+    line-height: 2em;
+    margin:25px;
+    text-align: left;
+}
+
+.type-wrap{
+    margin:10px auto;
+    padding:20px;
+    background:#111;
+    border-radius:5px;
+}
+
+.links{
+    margin:20px 0;
+    font-size: 0.75em;
+    text-align: left;
+}
+
+#typed{
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+        /* code for animated blinking cursor */
+        #typed-cursor{
+            opacity: 1;
+      padding: 0 2px 0 2px;
+      margin-left: 3px;
+      background: rgb(255, 255, 255); 
+      color: rgb(255, 255, 255);
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+
