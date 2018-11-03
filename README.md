@@ -10,7 +10,7 @@ Wiki Detective is a noir murder-mystery game which allows the player to utilize 
 
 ## How we built it
 
-We used Flask (a Python microframework) and JavaScript to create the animated immersive text-based experience.
+We used Flask (a Python microframework) and JavaScript to create an animated, immersive text-based experience.
 
 ## Challenges we ran into
 
