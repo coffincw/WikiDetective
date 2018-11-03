@@ -1,5 +1,9 @@
 # WikiDetective
 
+## Launch Instructions
+Ensure that you have Flask installed.
+After cloning into the repo, you can launch the game locally by typing `flask run`.
+
 ## Inspiration
 
 Creepy Wikipedia articles featured on sites such as Youtube and BuzzFeed.
