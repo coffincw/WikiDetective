@@ -16,3 +16,16 @@ class Queue:
 
     def size(self):
         return len(self.elements)
+
+    def __str__(self):
+        queue_str = "["
+        current_element = ""
+        i = 0
+        while i < self.size() - 1:
+            current_element = self.remove()
+            queue_str += str(current_element) + " | "
+            self.add(current_element)
+            i += 1
+        current_element = self.remove()
+        queue_str += str(current_element) + "]"
+        return queue_str
