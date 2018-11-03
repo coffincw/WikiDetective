@@ -2,15 +2,15 @@
 
 ## Inspiration
 
-Creepy Wikipedia articles featured on sites such as youtube and BuzzFeed.
+Creepy Wikipedia articles featured on sites such as Youtube and BuzzFeed.
 
 ## What it does
 
-Wikidetective is a noir murder mystery game which allows the player to utilize Wikipedia articles to solve a detailed murder case.
+Wiki Detective is a noir murder-mystery game which allows the player to utilize Wikipedia articles to solve a detailed murder case.
 
 ## How we built it
 
-We used Python flask and JavaScript for the animated immersive text-based experience
+We used Flask (a Python microframework) and JavaScript to create the animated immersive text-based experience.
 
 ## Challenges we ran into
 
