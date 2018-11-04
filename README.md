@@ -1,3 +1,4 @@
+![banner](https://github.com/coffincw/WikiDetective/blob/master/media/Wikidetective%20banner.png)
 # WikiDetective
 
 ## Launch Instructions
